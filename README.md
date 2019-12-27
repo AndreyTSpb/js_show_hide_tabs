@@ -46,7 +46,9 @@ Hide all tabs except the first
   AddHide(1);
 ```
 
-Clicking on the menu will open the desired tab
+Clicking on the menu will open the desired tab,
+sort through all the tabs and compare with the pressed,
+if it matches then hide everything, but open pressed
 ```js
   info.addEventListener('click', function(event){
         let target = event.target;
