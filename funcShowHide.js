@@ -1,8 +1,8 @@
 'use strict';
 function func(menu, menuItems, tabs){
-    let tab = document.querySelectorAll(menuItems),
-        info = document.querySelector(menu),
-        tabContent = document.querySelectorAll(tabs);
+    let tab = document.querySelectorAll("."+menuItems),
+        info = document.querySelector("."+menu),
+        tabContent = document.querySelectorAll("."+tabs);
 
 
     function AddHide(key){
